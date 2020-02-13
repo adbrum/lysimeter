@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lysimeter/precache-manifest.99d10f9265887b692b1fd1a606a3e8b2.js"
+  "/lysimeter/precache-manifest.67973ede5f297f234943856ad5f3931b.js"
 );
 
 self.addEventListener('message', (event) => {
