@@ -130,7 +130,7 @@ class App extends Component {
         },
         labels: ["Percent"],
       },
-      seriesRadial: [76],
+      seriesRadial: [0],
       optionsBar: {
         chart: {
           stacked: true,
@@ -242,6 +242,24 @@ class App extends Component {
               series={this.state.seriesMixedChart}
               type="line"
               width="500"
+            />
+          </div>
+
+          <div className="col radial-chart">
+            <Chart
+              options={this.state.optionsRadial}
+              series={this.state.seriesRadial}
+              type="radialBar"
+              width="280"
+            />
+          </div>
+
+          <div className="col radial-chart">
+            <Chart
+              options={this.state.optionsRadial}
+              series={this.state.seriesRadial}
+              type="radialBar"
+              width="280"
             />
           </div>
 
